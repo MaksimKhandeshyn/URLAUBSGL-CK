@@ -13,6 +13,11 @@
         text-align: center;
         color: #fff;
       }
+      .header-border {
+        fill: rgba(26, 25, 21, 0);
+        stroke-width: 2px;
+        stroke: #fff;
+      }
     }
   }
   .logo {
@@ -41,5 +46,4 @@
     color: #fff;
     margin-bottom: 19px;
   }
-  
 }

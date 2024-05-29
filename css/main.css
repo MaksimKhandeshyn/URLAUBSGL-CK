@@ -103,6 +103,11 @@ img {
   text-align: center;
   color: #fff;
 }
+.header .header-list .header-item .header-border {
+  fill: rgba(26, 25, 21, 0);
+  stroke-width: 2px;
+  stroke: #fff;
+}
 .header .logo {
   font-weight: 700;
   font-size: 18px;
