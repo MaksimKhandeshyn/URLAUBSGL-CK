@@ -10,3 +10,7 @@
 @import 'layouts/header';
 
 @import 'pages/home';
+
+body {
+    font-family: $font-family;
+}
