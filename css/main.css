@@ -90,10 +90,9 @@ img {
 }
 .header .header-list {
   display: flex;
-  justify-content: center;
 }
 .header .header-list .header-item {
-  margin-right: 9px;
+  margin-left: 70px;
   margin-top: 30px;
   margin-bottom: 123px;
 }
@@ -107,6 +106,13 @@ img {
   fill: rgba(26, 25, 21, 0);
   stroke-width: 2px;
   stroke: #fff;
+  position: absolute;
+  top: -8px;
+  left: -19px;
+}
+.header .header-list .header-item:last-child {
+  position: relative;
+  margin-left: 21px;
 }
 .header .logo {
   font-weight: 700;
@@ -144,16 +150,34 @@ img {
   text-align: center;
   color: #333;
 }
-.hero .partner-img {
+.hero .partner-list {
+  position: relative;
+}
+.hero .partner-list .partner-img {
   margin: 0 auto;
   margin-bottom: 14px;
 }
-.hero .partner-name {
+.hero .partner-list .icon-box {
+  position: absolute;
+  top: 84px;
+  left: 171px;
+}
+.hero .partner-list .icon-box .ellipse {
+  position: absolute;
+  z-index: 1;
+}
+.hero .partner-list .icon-box .partner-icon {
+  position: relative;
+  z-index: 2;
+  top: 10.5px;
+  left: 12px;
+}
+.hero .partner-list .partner-name {
   font-size: 14px;
   text-align: center;
   color: #333;
 }
-.hero .partner-info {
+.hero .partner-list .partner-info {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 14px;

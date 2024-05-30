@@ -2,9 +2,8 @@
   background: url("../images/background.jpg") no-repeat top;
   .header-list {
     display: flex;
-    justify-content: center;
     .header-item {
-      margin-right: 9px;
+      margin-left: 70px;
       margin-top: 30px;
       margin-bottom: 123px;
       .header-link {
@@ -17,7 +16,14 @@
         fill: rgba(26, 25, 21, 0);
         stroke-width: 2px;
         stroke: #fff;
+        position: absolute;
+        top: -8px;
+        left: -19px;
       }
+    }
+    .header-item:last-child {
+      position: relative;
+      margin-left: 21px;
     }
   }
   .logo {

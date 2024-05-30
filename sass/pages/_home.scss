@@ -6,21 +6,39 @@
     text-align: center;
     color: #333;
   }
-  .partner-img {
-    margin: 0 auto;
-    margin-bottom: 14px;
-  }
-  .partner-name {
-    font-size: 14px;
-    text-align: center;
-    color: #333;
-  }
-  .partner-info {
-    font-family: $second-family;
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
-    color: #666;
-    margin-top: 13px;
+  .partner-list {
+    position: relative;
+    .partner-img {
+      margin: 0 auto;
+      margin-bottom: 14px;
+    }
+    .icon-box {
+      position: absolute;
+      top: 84px;
+      left: 171px;
+      .ellipse {
+        position: absolute;
+        z-index: 1;
+      }
+      .partner-icon {
+        position: relative;
+        z-index: 2;
+        top: 10.5px;
+        left: 12px;
+      }
+    }
+    .partner-name {
+      font-size: 14px;
+      text-align: center;
+      color: #333;
+    }
+    .partner-info {
+      font-family: $second-family;
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      color: #666;
+      margin-top: 13px;
+    }
   }
 }
