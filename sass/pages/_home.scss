@@ -1,38 +1,42 @@
 .hero {
   margin-top: 67px;
-  .partners-title {
+  .hero__partners-title {
     margin-bottom: 14px;
     font-size: 22px;
     text-align: center;
     color: #333;
   }
   .partner-list {
+    .partner-list__item:nth-child(2) {
+      .partner-list__info {
+        padding-top: 16px;
+        width: 247px;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
     position: relative;
-    .partner-img {
+    .partner-list__img {
       margin: 0 auto;
       margin-bottom: 14px;
+      margin-top: 32px;
+      margin-left: 90px;
     }
+    .ellipse {
+      margin-left: -36px;
+      
+    } 
     .icon-box {
-      position: absolute;
-      top: 84px;
-      left: 171px;
-      .ellipse {
-        position: absolute;
-        z-index: 1;
-      }
-      .partner-icon {
-        position: relative;
-        z-index: 2;
-        top: 10.5px;
-        left: 12px;
-      }
+      display: flex;
+      align-items: end;
+      width: 120px;
     }
-    .partner-name {
+    .partner-list__name {
       font-size: 14px;
       text-align: center;
       color: #333;
     }
-    .partner-info {
+    .partner-list__info {
       font-family: $second-family;
       font-weight: 300;
       font-size: 14px;
